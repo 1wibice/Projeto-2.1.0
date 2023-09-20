@@ -11,25 +11,30 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    max-height: 100%;
     background-color: purple;
     background-image: url("img/➢\ 𝐑𝐄𝐃\ \,\ 𝘢𝘭𝘪𝘤𝘦\ 𝘪𝘯\ 𝘣𝘰𝘳𝘥𝘦𝘳𝘭𝘢𝘯𝘥\ ❞.gif");
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment:fixed ;
     background-size: cover;
+    width: 100vw;
+height: 100vh;
 
 }
 
 .container {
     display: flex;
     flex-direction: column;
+    
     background-color: rgba(0, 0, 0, 0.089)   ;
     border: .1px solid white;
     backdrop-filter: blur(4px);
     border-radius: 10px;
     align-items: center;
     width: 350px;
+    justify-content: center;
+    align-content: center;
     height: 450px;  
     color: white;
     position: relative;
